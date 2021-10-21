@@ -1,0 +1,131 @@
+body {
+  background: #FFFFFF;
+  color: #7F7F7F;
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* HEADER */
+
+header {
+  height: 105px;
+  background: #F6F6F6;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  width: 276px;
+  height: 45px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #7296EE;
+  margin-right: 10px;
+}
+
+header p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 25px;
+  font-family: 'Rubik', sans-serif;
+}
+
+header p span {
+  color: #2959CE;
+  font-weight: bold;
+}
+
+header input {
+  font-family: 'Rubik', sans-serif;
+  max-width: 275px;
+  height: 45px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 60px;
+  padding: 0 41px;
+  color: #8D8D8D;
+}
+
+.language {
+  width: 70px;
+  height: 36px;
+  background: #DCE6FF;
+  border-radius: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.language a {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+}
+
+.lang_active {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 3px;
+  border-radius: 15px;
+  background: #FFFFFF;
+}
+
+.language a:last-child {
+  color: #A6A6A6;
+  padding-right: 10px;
+}
+
+.header_btn {
+  font-family: 'Rubik', sans-serif;
+  width: 89px;
+  height: 45px;
+  background: #7296EC;
+  border-radius: 10px;
+  border: none;
+  margin-left: 25px;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+/* Navbar */
+
+nav {
+  align-items: center;
+  height: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color: #7F7F7F;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
