@@ -48,7 +48,7 @@ header p span {
 }
 
 header input {
-  max-width: 275px;
+  width: 275px;
   height: 45px;
   border: none;
   background: #FFFFFF;
@@ -57,7 +57,14 @@ header input {
   color: #8D8D8D;
 }
 
+.search {
+  position: absolute;
+  top: 10px;
+  left: -365px;
+}
+
 .language {
+  position: relative;
   width: 70px;
   height: 36px;
   background: #DCE6FF;
